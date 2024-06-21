@@ -1,0 +1,122 @@
+p{
+  font-size: 1.6rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1.6rem;
+}
+
+.main-container{
+  display: flex;
+  padding: 2rem;
+  gap: 3rem;
+}
+
+.sidebar-container{
+  flex: 1;
+}
+
+.item-container{
+  font-size: 1.6rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: rgb(175, 175, 175) 0px 0px 10px 0px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.personal-details-container{
+  justify-content: flex-start;
+  padding: 2rem;
+  flex-direction: column;
+}
+
+.resume-container{
+  flex: 3;
+  box-shadow: rgb(175, 175, 175) 0px 0px 10px 0px;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgb(230, 230, 230);
+}
+
+.clear-button{
+  color: red;
+}
+
+.title{
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+  color: black;
+  display: block;
+}
+
+label{
+  margin-top: 1rem;
+}
+
+input{
+  border: none;
+  background-color: rgb(230, 230, 230);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+
+.resume-top{
+  background-color: rgb(14, 55, 78);
+  padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.name-output{
+  font-size: 3.25rem;
+  color: white;
+  font-weight: bold;
+}
+
+.resume-top-info-container{
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.resume-top img{
+  height: 20px;
+  width: auto;
+}
+
+.button-container{
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container button{
+  border: 1px solid grey
+}
+
+.education-item{
+  background-color: rgb(230, 230, 230);
+  margin-bottom: 1rem;
+
+  transition: transform 0.1s ease-in-out
+}
+
+.education-item:hover{
+  transform: scale(1.05);
+}
