@@ -18,6 +18,7 @@ button{
   display: flex;
   padding: 2rem;
   gap: 3rem;
+  align-items: flex-start;
 }
 
 .sidebar-container{
@@ -44,6 +45,7 @@ button{
 .resume-container{
   flex: 3;
   box-shadow: rgb(175, 175, 175) 0px 0px 10px 0px;
+  padding-bottom: 2rem;
 }
 
 button:hover{
@@ -76,7 +78,7 @@ input{
 
 .resume-top{
   background-color: rgb(14, 55, 78);
-  padding: 3.5rem;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -119,4 +121,95 @@ input{
 
 .education-item:hover{
   transform: scale(1.05);
+}
+
+.main-resume-section{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.resume-heading{
+  background-color: lightgrey;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.education-container{
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.education-container div{
+  display: flex;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+
+.education-container p{
+  color: black;
+  font-size: 1.8rem;
+  display: block;
+}
+
+.education-list-contiainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.education-container .dates{
+  margin-bottom: 0.5rem;
+}
+
+.experience-container{
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  min-width: 50rem;
+}
+
+.experience-container .left-experience-container{
+  flex: 1;
+}
+
+.experience-container .right-experience-container{
+  flex: 3;
+}
+
+.right-experience-container .space{
+  margin-bottom: 0.5rem;
+}
+
+.experience-container div{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.experience-container p{
+  color: black;
+  font-size: 1.8rem;
+  display: block;
+}
+
+.profile-text{
+  color: black;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.textarea{
+  padding: 10rem;
+}
+
+.download-button{
+  width: 100%;
 }
