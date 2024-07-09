@@ -1,8 +1,11 @@
-# React + Vite
+# Resume Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Resume Builder app created with React, HTML, CSS, and JavaScript. Deployed on Cloudflare. 
 
-Currently, two official plugins are available:
+### **[Live Demo](https://ba9b29cd.cv-application-63l.pages.dev/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Built with
+- React
+- HTML
+- CSS
+- JavaScript
